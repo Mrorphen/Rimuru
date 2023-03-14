@@ -1,0 +1,128 @@
+
+/* FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
+
+/* Google Fonts 
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+:root {
+    --titulo: 'Nunito', sans-serif;
+    --titulo1:'Playfair Display', serif;
+    --titulo2:'Roboto', sans-serif;
+    --titulo3:'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-image: url(../img/fondo01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    width: 50%;
+    height: 425px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(5px);
+    background-color: rgba(128, 191, 210, 0.4);
+    border-radius: 30px;
+}
+
+h1 {
+    font-family: var(--titulo1);
+    font-size: 3.8rem;
+    font-weight: 900;
+    border-bottom: 2px solid black;
+    color: rgb(10, 9, 70)
+    
+}
+
+h3 {
+    font-family: var(--titulo2);
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    
+
+}
+
+img {
+    width: 347px;
+    height: 200px;
+}
+
+.flex p,
+.bootstrap p {
+    font-family: var(--titulo2);
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 5px;
+}
+
+.flex p i,
+.bootstrap p i {
+    margin-right: 5px;
+}
+
+.iconos {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    background-color: rgba(128, 191, 210, 0.4);
+    border: 1px solid black;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    border-bottom-left-radius: 30px;
+}
+
+/*
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+*/
+
+
+
