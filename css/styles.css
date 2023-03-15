@@ -23,7 +23,6 @@ body {
     background-image: url(../img/fondo01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,8 +31,8 @@ body {
 }
 
 main {
-    width: 50%;
-    height: 425px;
+    width: 90%;
+    height: 310px;
     border: 1px solid black;
     box-sizing: border-box;
     padding: 20px;
@@ -48,16 +47,16 @@ main {
 
 h1 {
     font-family: var(--titulo1);
-    font-size: 3.8rem;
+    font-size: 2rem;
     font-weight: 900;
-    border-bottom: 2px solid black;
-    color: rgb(10, 9, 70)
+    color: rgb(10, 9, 70);
+    text-align: center;
     
 }
 
 h3 {
     font-family: var(--titulo2);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     margin: 20px 0;
 }
@@ -67,13 +66,48 @@ h3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     
 
 }
 
+.flex {
+    margin-bottom: 20px;
+}
+
+.flex,
+.bootstrap{
+    width: 100%;
+    box-sizing: border-box;
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:11px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.flex,
+.bootstrap:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.flex,
+.bootstrap:active {
+	position:relative;
+	top:1px;
+}
+
 img {
+    display:none;
     width: 347px;
     height: 200px;
 }
@@ -81,9 +115,9 @@ img {
 .flex p,
 .bootstrap p {
     font-family: var(--titulo2);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
-    margin-top: 5px;
+    color:rgb(10, 9, 70)
 }
 
 .flex p i,
