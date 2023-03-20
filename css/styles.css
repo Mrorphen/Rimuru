@@ -96,21 +96,15 @@ h3 {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528ecc;
 }
-.flex,
+.flex:hover,
 .bootstrap:hover {
 	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
 	background-color:#378de5;
 }
-.flex,
+.flex:active,
 .bootstrap:active {
 	position:relative;
 	top:1px;
-}
-
-img {
-    display:none;
-    width: 347px;
-    height: 200px;
 }
 
 .flex p,
@@ -180,21 +174,30 @@ img {
         font-size: 3rem;
     }    
 }
-/*
-// Small devices (landscape phones, 576px and up)
+
+/* resolucion tablest, 768px y superiores */
+@media (min-width: 768px) {
+    main {
+        width: 60%;
+        height: 250px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
 
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    main {
+        width: 40%;
+        height: 250px;
+    }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
+}
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
 
 
 
