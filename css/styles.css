@@ -70,6 +70,13 @@ h3 {
     text-align: center;
 }
 
+/* modificacion 21/03/2023 */
+a{
+	width: 100%;
+}
+
+/* fin modificacion 21/03/2023 */
+
 .flex {
     margin-bottom: 20px;
 }
@@ -154,9 +161,15 @@ h3 {
         margin-bottom: 0;
     }
     
+	/* modificacion 21/03/2023 */
+	a{
+		width:45%;
+	}
+	/* fin modificacion 21/03/2023 */
+	
     .flex,
     .bootstrap{
-        width: 45%;
+        width: 100%; /* modificacion de 45% a 100% 21/03/2023 */
         height: 115px;
         display: flex;
         align-items: center;
@@ -181,6 +194,18 @@ h3 {
         width: 60%;
         height: 250px;
     }
+	
+	/* modificacion 21/03/2023 */
+	a{
+		width:45%;
+	}	
+	
+	.flex,
+	.bootstrap{
+		width:100%;
+	}
+	
+	/* fin modificacion 21/03/2023 */
 }
 
 /* Large devices (desktops, 992px and up) */
